@@ -20,7 +20,7 @@ If you are not interested in Docker, these are all you need. Just place the file
 ### requirements.txt
 The needed modules for the app, covering flask and it's dependencies
 
-###Dockerfile
+### Dockerfile
 The blueprint for your container. This can be left alone, unless you change the default port used by your flask application, in whic case you will need to change EXPOSE from 5000 to your port. Other than that, just have everything in the same folder, use the command - 
 ```
 docker build -t {image-name} .
